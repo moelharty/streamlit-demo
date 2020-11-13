@@ -1,0 +1,11 @@
+#python dependencies
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+altair
+vega
+vega_datasets
+streamlit

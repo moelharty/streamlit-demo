@@ -37,7 +37,7 @@ cars
 
 # Summary of selected data
 chart = alt.Chart(cars).mark_bar().encode(
-    x='count()',
+    x='df['Country'].nunique()',
     y='Origin',
     color='Origin'
 ).properties(
